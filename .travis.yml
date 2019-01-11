@@ -7,7 +7,7 @@ os:
 addons:
     apt:
       packages:
-	- gcc
-	- libpcap-dev	  
+        - gcc
+        - libpcap-dev	  
 
 script: gcc monitor.c -o monitor
