@@ -13,7 +13,7 @@ apt-get install libpcap-dev
 
 Compilation was made with gcc like this:
 ```
-gcc -lpcap main.c -o monitor
+gcc -lpcap monitor.c -o monitor
 ```
 
 You have to tell the program the desired network interface to listen on as the first argument.  
