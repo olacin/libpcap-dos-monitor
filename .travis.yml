@@ -5,9 +5,12 @@ os:
   - linux
 
 addons:
+    sources:
+      - ubuntu-toolchain-r-test
     apt:
       packages:
         - gcc
-        - libpcap-dev	  
+        - libpcap0.8-dev
+        - libpcap0.8	  
 
-script: gcc -lpcap monitor.c -o monitor
+script: gcc -o monitor monitor.c -lpcap
