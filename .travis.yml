@@ -1,5 +1,5 @@
 language: c
 before_install:
-    - sudo apt-get install libpcap-dev
+    - sudo apt-get install -y libpcap-dev
 compiler: gcc
 script: gcc monitor.c -o monitor
