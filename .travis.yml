@@ -10,4 +10,4 @@ addons:
         - gcc
         - libpcap-dev	  
 
-script: gcc -lpcap main.c -o monitor
+script: gcc -lpcap monitor.c -o monitor
