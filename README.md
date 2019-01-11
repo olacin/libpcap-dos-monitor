@@ -1,4 +1,5 @@
 # libpcap-dos-monitor
+[![Build Status](https://travis-ci.org/nickxla/libpcap-dos-monitor.svg?branch=master)](https://travis-ci.org/nickxla/libpcap-dos-monitor)  
 This program monitors TCP SYN and DNS traffic (UDP on port 53), prints details of these packets and counts monitored packets out of total packets.    
 As Denial of Service and Distributed Denial of Service consists in massive sending of these packets, this program can be used to monitor TCP SYN and DNS traffic on a network.  
 This program is mainly to pratice C programming with [libpcap](http://www.tcpdump.org/) and not an enterprise-like DoS detector.
